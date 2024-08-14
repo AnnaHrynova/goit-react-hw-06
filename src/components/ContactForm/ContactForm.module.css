@@ -1,0 +1,46 @@
+.formContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .inputWrap {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 16px;
+    line-height: 1.33;
+  }
+  
+  .input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.33;
+    padding: 0 4px;
+    height: 28px;
+  }
+  
+  .button {
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 120px;
+    font-size: 16px;
+    line-height: 1.33;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
